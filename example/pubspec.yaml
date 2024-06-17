@@ -1,0 +1,10 @@
+name: easy_cleaner_example
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+environment:
+  sdk: ">=3.0.5 <4.0.0"
+
+# Add regular dependencies here.
+dependencies:
+  easy_localization: ^3.0.6
+

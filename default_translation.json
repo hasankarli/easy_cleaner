@@ -1,0 +1,60 @@
+{
+  "home": "Home",
+  "about": "About",
+  "title": "Hello, World!",
+  "title2": "Hello, {name}!",
+  "title3": "Hello, {name}! You have {money} dollars",
+  "title4": "Hello, {name}! You have {money} dollars",
+  "title5": "Hello, {name}! You have {money} dollars",
+  "currencies": {
+    "usd": "USD",
+    "eur": "EUR",
+    "gbp": "GBP",
+    "jpy": "JPY"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Spanish",
+    "fr": "French"
+  },
+  "money": {
+    "zero": "You not have money",
+    "one": "You have {} dollar",
+    "many": "You have {} dollars",
+    "other": "You have {} dollars"
+  },
+  "money_args": {
+    "zero": "{} has no money",
+    "one": "{} has {} dollar",
+    "many": "{} has {} dollars",
+    "other": "{} has {} dollars"
+  },
+  "money_named_args": {
+    "zero": "{name} has no money",
+    "one": "{name} has {money} dollar",
+    "many": "{name} has {money} dollars",
+    "other": "{name} has {money} dollars"
+  },
+  "money2": {
+    "zero": "You not have money",
+    "one": "You have {} dollar",
+    "many": "You have {} dollars",
+    "other": "You have {} dollars"
+  },
+  "money3": {
+    "one": "{} has {} dollar",
+    "other": "{} has {} dollars"
+  },
+  "money4": {
+    "zero": "You not have money",
+    "one": "You have {} dollar",
+    "many": "You have {} dollars",
+    "other": "You have {} dollars"
+  },
+  "money5": {
+    "zero": "You not have money",
+    "one": "You have {} dollar",
+    "many": "You have {} dollars",
+    "other": "You have {} dollars"
+  }
+}
