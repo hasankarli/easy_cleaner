@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Dart
+        uses: google/setup-dart@v1
+
+      - name: Install dependencies
+        run: dart pub get
+
+      - name: Run scripts
+        run: |
+          ./run_scripts.sh
+          ./test_coverage.sh
+
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v4.0.1
+        env:
+          PACKAGE_PATH: ./coverage/lcov.info
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
