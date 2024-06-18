@@ -3,9 +3,16 @@ import 'dart:io';
 import 'package:args/args.dart';
 import 'package:easy_cleaner/src/helpers/helpers.dart';
 
+/// A Dart CLI package designed to remove unused locale keys from JSON files
+/// used with the `easy_localization` package.
 class EasyCleaner {
+  /// The current path of the project, default is the current directory
   static String currentPath = Directory.current.path;
+
+  /// The name of the generated class key, default is LocaleKeys
   static String generatedClassKey = 'LocaleKeys';
+
+  /// The directory where the json files are located, default is assets/translations
   static String assetsDir = 'assets/translations';
 
   static final helpers = LocalizationHelpers();

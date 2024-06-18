@@ -9,3 +9,7 @@
 ## 0.9.0
 
 - Update executable
+
+## 1.0.2
+
+- Adding helper comments
