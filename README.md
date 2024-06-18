@@ -32,7 +32,7 @@ You can customize the behavior of easy_cleaner using the following options:
 ## Example Usage with Options:
 
 ```sh
-dart run easy_cleaner --current-path /path/to/project --generated-class-key MyCustomKeys --assets-dir path/translations-files
+easy_cleaner --current-path /path/to/project --generated-class-key MyCustomKeys --assets-dir path/translations-files
 ```
 
 ## Contributing
