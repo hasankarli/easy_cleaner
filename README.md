@@ -2,6 +2,7 @@
 
 [![pub package](https://img.shields.io/pub/v/easy_cleaner.svg)](https://pub.dev/packages/easy_cleaner)
 [![codecov](https://codecov.io/gh/hasankarli/easy_cleaner/branch/master/graph/badge.svg?token=JCT4XQ5A47)](https://codecov.io/gh/hasankarli/easy_cleaner)
+![GitHub license](https://img.shields.io/github/license/hasankarli/easy_cleaner?style=flat-square)
 
 Easy Cleaner is a Dart CLI package designed to remove unused locale keys from JSON files used with the `easy_localization` package. It helps keep your localization files clean and manageable by identifying and removing keys that are no longer in use.
 
