@@ -18,3 +18,30 @@ You can globally install `easy_cleaner` using the Dart package manager:
 
 ```sh
 dart pub global activate easy_cleaner
+```
+
+## Command Line Options
+
+You can customize the behavior of easy_cleaner using the following options:
+
+- `--current-path`: The current path of the project, default is the current directory.
+- `--generated-class-key`: The name of the generated class key, default is `LocaleKeys`.
+- `--assets-dir`: The directory where the JSON files are located, default is `assets/translations`.
+
+## Example Usage with Options:
+
+```sh
+dart run easy_cleaner --current-path /path/to/project --generated-class-key MyCustomKeys --assets-dir path/translations-files
+```
+
+## Contributing
+
+Contributions are welcome! Please submit issues and pull requests.
+
+- Fork the repository.
+- Create a new branch:
+- Make your changes.
+- Commit your changes:
+- Push to the branch:
+- Create a new Pull Request
+  
