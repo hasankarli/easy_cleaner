@@ -10,6 +10,10 @@ topics: [localization]
 environment:
   sdk: ">=3.0.5 <4.0.0"
 
+
+executables:
+  easy_cleaner: main
+
 dependencies:
   analyzer: ^5.1.0
   args: ^2.5.0
