@@ -27,7 +27,5 @@ jobs:
 
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v4.0.1
-        env:
-          PACKAGE_PATH: ./coverage/lcov.info
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
