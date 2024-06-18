@@ -2,6 +2,11 @@ name: easy_cleaner
 description: A CLI tool to clean translations files for Easy Localization package.
 version: 1.0.0
 repository: https://github.com/hasankarli/easy_cleaner.git
+issue_tracker: https://github.com/hasankarli/easy_cleaner/issues
+homepage: https://hasankarli.com/
+topics: [localization, easy_localization, cleaner, easy_cleaner]
+
+
 environment:
   sdk: ">=3.0.5 <4.0.0"
 
@@ -10,8 +15,6 @@ dependencies:
   args: ^2.5.0
   glob: ^2.0.2
 
-executables:
-  lck: bin/easy_cleaner.dart
 
 dev_dependencies:
   lints: ^3.0.0
