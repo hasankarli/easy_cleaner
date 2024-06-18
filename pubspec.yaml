@@ -1,6 +1,6 @@
 name: easy_cleaner
 description: A CLI tool to clean translations files for Easy Localization package.
-version: 1.0.1
+version: 0.9.0
 repository: https://github.com/hasankarli/easy_cleaner.git
 issue_tracker: https://github.com/hasankarli/easy_cleaner/issues
 homepage: https://hasankarli.com/
