@@ -20,6 +20,8 @@ jobs:
 
       - name: Run scripts
         run: |
+          chmod +x ./run_scripts.sh
+          chmod +x ./test_coverage.sh
           ./run_scripts.sh
           ./test_coverage.sh
 
