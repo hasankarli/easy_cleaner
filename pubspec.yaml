@@ -4,7 +4,7 @@ version: 1.0.0
 repository: https://github.com/hasankarli/easy_cleaner.git
 issue_tracker: https://github.com/hasankarli/easy_cleaner/issues
 homepage: https://hasankarli.com/
-topics: [localization, easy_localization, cleaner, easy_cleaner]
+topics: [localization]
 
 
 environment:
