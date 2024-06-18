@@ -24,8 +24,3 @@ jobs:
           chmod +x ./test_coverage.sh
           ./run_scripts.sh
           ./test_coverage.sh
-
-      - name: Upload coverage reports to Codecov
-        uses: codecov/codecov-action@v4.0.1
-        with:
-          token: ${{ secrets.CODECOV_TOKEN }}
